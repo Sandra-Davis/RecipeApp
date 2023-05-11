@@ -9,7 +9,16 @@ The aim of this website is to help people create recipes of their own and publis
 ![image](https://github.com/Sandra-Davis/RecipeApp/assets/95069936/c2eb65d0-e9fb-4819-a33d-f9356f2b9ae0)
 
 # Built With
-## React.js
-## Node.js
+### React.js
+### Node.js
 
-# Getting Started
+# Installation
+
+1. Clone the repo
+    git clone 
+2. Install NPM packages
+    npm i
+3.Start the Development Server
+    npm start
+
+
