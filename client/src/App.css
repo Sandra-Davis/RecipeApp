@@ -1,0 +1,184 @@
+.App {
+/* background-image: url("https://www.transparenttextures.com/patterns/polaroid.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  /* background-color: #0C134F; */
+  background-image: linear-gradient(315deg, #393e67 0%, #0C134F 84%);
+  height: 60px;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  /* font-style: italic; */
+}
+.link1{
+  color: white;
+  padding-right: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* align-items: center; */
+}
+
+h1
+{
+  color: #0C134F;
+  font-family: 'Poppins', sans-serif;
+}
+h2
+{
+  color: #0C134F;
+  font-family: 'Poppins', sans-serif;
+}
+.auth{
+  columns: 2;
+  font-weight: bold;
+  /* margin-top: 5%;  */
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 100vh; */
+  
+}
+
+.auth-container{
+
+  font-size: large;
+  color: #0C134F;
+  font-family: 'Poppins', sans-serif;
+}
+
+.i{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #060927;
+}
+
+.t{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #060927;
+}
+/* .bs{
+  margin-top: 2%;
+  background-color: #0C134F;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+} */
+
+.b{
+  width: 200px;
+  height: 40px;
+  color: #0C134F;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  background-color: #fff;
+}
+.bs{
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin-top: 2%;
+  background-color: #0C134F;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.bs{
+  background-color: #f0ecfc;
+  font-weight: bold;
+  background-image: linear-gradient(315deg, #393e67 0%, #0C134F 84%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.bs span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.bs:before,
+.bs:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.create{
+        columns: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size: 24px; */
+        /* color: #fff; */
+}
+
+.vl{
+  background-color: #635985;
+    width: 0.1rem;
+    height: 100%;
+}
+
+.side{
+  width: 25%;
+  height: 550px;
+  background-color: #060927;
+}
+
+.create-recipe
+{
+  width: 50%;
+  font-weight: bold;
+  justify-content: center;
+  color: #0C134F;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.home{
+  /* width: 50%; */
+  font-weight: bold;
+  justify-content: center;
+  color: #0C134F;
+  font-family: 'Poppins', sans-serif;  
+}
+
+.foood{
+  width: 200px;
+  height: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 100px 50px;
+}
+.grid-item {
+  height: 450px;
+  background-color:white;
+  border-radius: 25px;
+  border: 3px solid;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;  
+}
