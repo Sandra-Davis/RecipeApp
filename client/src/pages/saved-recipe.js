@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React,{ useEffect, useState } from "react";
 import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 
@@ -10,7 +10,7 @@ export const SavedRecipe=()=>{
 
         const fetchSavedRecipe= async()=>{
             try {
-                const response=await axios.get(`http://localhost:3001/recipes/savedRecipes/ids/${userID}`);
+                const response=await axios.get(`http://localhost:3001/recipes/savedRecipes/${userID}`);
                 
                 setSavedRecipes(response.data.savedRecipes);
 
@@ -40,7 +40,7 @@ export const SavedRecipe=()=>{
                         <p>{recipe.instructions}</p>
                     </div>
                     <div>
-                        <img src={recipe.imageURL} alt={recipe.name}/>
+                        <img className="foood" src={recipe.imageURL} alt={recipe.name}/>
                         <p>Cooking Time:{recipe.cookingTime} (minutes) </p>
                     </div>
                 </li>);

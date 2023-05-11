@@ -163,7 +163,12 @@ h2
   color: #0C134F;
   font-family: 'Poppins', sans-serif;  
 }
-
+.saved{
+  font-weight: bold;
+  justify-content: center;
+  color: #0C134F;
+  font-family: 'Poppins', sans-serif;  
+}
 .foood{
   width: 200px;
   height: 200px;

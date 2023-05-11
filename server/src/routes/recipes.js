@@ -34,9 +34,9 @@ router.post("/", verifyToken ,async (req,res)=>{
 // SAVE RECIPES
 router.put("/",verifyToken,async (req,res)=>{
 
+    const recipe=await RecipeModel.findById(req.body.recipeID);
+    const user=await UserModel.findById(req.body.userID);
     try {
-        const recipe=await RecipeModel.findById(req.body.recipeID);
-        const user=await UserModel.findById(req.body.userID);
         user.savedRecipes.push(recipe);
         await user.save();
         res.json({savedRecipes:user.savedRecipes});
@@ -73,3 +73,5 @@ router.get("/savedRecipes/:userID",async (req,res)=>{
 
 
 export {router as recipesRouter}; 
+
+
