@@ -21,10 +21,6 @@ app.use("/recipes",recipesRouter);
 mongoose.connect(process.env.MONGO_URL,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
-})
-// mongoose.connect("mongodb+srv://sandradavise02:Sandra2002mdb@recipes.zrflmka.mongodb.net/recipes?retryWrites=true&w=majority",{
-//     useNewUrlParser:true,
-//     useUnifiedTopology:true,
-// })
+});
 
 app.listen(3001,()=>console.log("SERVER STARTED"));
