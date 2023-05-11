@@ -10,7 +10,7 @@ The aim of this website is to help people create recipes of their own and publis
 
 # Built With
 ### React.js
-### Node.js
+### Express.js
 
 # Installation
 
