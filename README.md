@@ -17,10 +17,12 @@ The aim of this website is to help people create recipes of their own and publis
 # Installation
 
 ##### 1. Clone the repo
-            git clone https://github.com/Sandra-Davis/RecipeApp.git
-##### 2. Install NPM packages
+             git clone https://github.com/Sandra-Davis/RecipeApp.git
+##### 2. Move into server directory
+             cd server
+##### 3. Install NPM packages
              npm i
-##### 3.Start the Development Server
-              npm start
+##### 4.Start the Development Server
+             npm start
 
 
